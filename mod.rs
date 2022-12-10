@@ -11,10 +11,12 @@ pub fn parse_block_output(output: &HashSet<(u32, u32)>, width: u32) -> String {
     let mut character_codes = HashMap::with_capacity(6);
     character_codes.insert(16290430, 'A');
     character_codes.insert(4855902, 'C');
+    character_codes.insert(8804735, 'E');
     character_codes.insert(283007, 'F');
     character_codes.insert(16531775, 'H');
     character_codes.insert(8263696, 'J');
     character_codes.insert(8757567, 'K');
+    character_codes.insert(1610367, 'P');
     character_codes.insert(9329265, 'Z');
 
     let mut text = String::with_capacity((width / 5) as usize);
